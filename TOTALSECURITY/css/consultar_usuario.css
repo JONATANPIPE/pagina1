@@ -1,0 +1,120 @@
+body{
+
+    background-image: url(zBackground.png);
+    background-repeat: no-repeat;
+    background-position: flex;
+    background-size: cover;
+    background-attachment: fixed;
+     margin: 0;
+     
+ }
+ 
+ header {
+     
+  display: flex;
+     background-color:rgb(169, 132, 103);
+     height: 100px;
+    
+     justify-content: right;
+     
+ }
+ 
+ .logo{
+     
+     display: flex;
+     justify-content: right;
+ }
+ 
+ .container {
+ 
+ min-height: auto;
+ display: flex;
+ flex-direction:  column;
+ min-height: auto;
+ margin:  auto;
+ margin-top: 250px;
+ width: 780px;
+ height: 500px;
+ background-color: rgb(253, 248, 225);
+ position: relative;
+ align-items: flex-end;
+ justify-content: flex-end;
+ }
+ 
+ .rectangulo {
+ width: 450px;
+ height: 500px;
+ background-image: url(zedificio.jpeg);
+ position: absolute;
+ left: 0;
+ top: 0;
+ 
+ }
+ 
+ .cinta{
+ 
+     width: 330px;
+     height: 100px;
+     background-color: rgb(169, 132, 103);
+     position: absolute;
+     top: 0px; left: 450px;
+     text-align: center;
+     font-size: 2.5vw;
+     font: 350% sans-serif;
+     margin-top: center;
+ 
+ 
+ }
+ 
+ 
+ 
+ .btn{
+     background-color: rgb(151, 200, 102);
+     width: 250px;
+     border: 250px;
+     padding: 15px 32px;
+     text-align: center;
+     position:  absolute;
+     top: 280px; left: 170px;
+   
+     font-size: 16px;
+     margin: 16px 4px;
+     cursor: pointer;
+     border: black 2px solid;
+     margin: 20px;
+     padding: 12px;
+    
+     
+     
+ 
+ }
+ 
+ .btn:hover {
+     
+     background-color: aqua;
+     display: inline-block;
+     width: 250px;
+     text-align: center;
+ }
+
+ .form-control {
+
+
+    border-radius: 0px;
+    font: 160% sans-serif;
+    text-align: left;
+    border: 50px;
+    position:  absolute;
+    top: 250px; left: 450px;
+    
+
+ }
+
+ label {
+
+    position:  absolute;
+    top: 220px; left: 450px;
+    font: 130% sans-serif;
+
+
+ }

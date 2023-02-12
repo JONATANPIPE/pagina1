@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <header>
+        
+        <head class="logo">
+     
+            <a href="index_admin.html"><input type="image" src="usuario.png"style="width:90px;" /></a> 
+         
+         
+     
+        </head>
+        
+         <h1>            </h1>
+     
+     </header>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registrar_usuario.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <br>
+    <form action="guardar_usuario.php" method="POST">
+        <div class="container">
+            <div class="rectangulo"></div>
+            <div class="rectangulo-2"></div>
+            <div class="cinta">Total security</div>
+            <h1>Registrar usuarios</h1>
+            <div class="row">
+                <div class="col-12">
+                    <label for="">Cedula de ciudadania:</label>
+                    <div class="relleno1"></div>
+                    <input type="number" required name="documento" class="form-control">
+                </div>
+                <div class="col-12">
+                    <label for="">Nombre:</label>
+                    <div class="relleno2"></div>
+                    <input type="text" required name="nombre" class="form-control">
+                </div>
+                <div class="col-12">
+                    <label for="">Numero telefonico:</label>
+                    <div class="relleno3"></div>
+                    <input type="text" required name="telefono" class="form-control">
+                </div>
+                <div class="col-12">
+                    <label for="">Correo electronico:</label>
+                    <div class="relleno4"></div>
+                    <input type="text" required name="correo" class="form-control">
+                </div>
+                <div class="col-12">
+                    <label for="">Tipo usuario:</label>
+                    <div class="relleno5"></div>
+                    <select name="usuario" class="form-control">
+                        <option value="Seleccionar">Seleccionar</option>
+                        <option value="Administrador ">Administrador </option>
+                        <option value="Guardia">Guardia</option>
+                    </select>                    
+                </div>
+            </div>
+            <br>
+            <button type="submit" style="margin-left: 42%" class="btn btn-outline-success">Guardar</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
